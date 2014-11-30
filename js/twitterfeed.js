@@ -20,7 +20,7 @@ $(document).ready(function () {
 	
 	$('#twitter-feed').html(headerHTML + loadingHTML);
 	 
-    $.getJSON('http://www.webdevdoor.com/demos/jquery-twitter-feed/get-tweets1.1.php', 
+    $.getJSON('http://www.nellemcdade.com/js-final-twitter-api/get-tweets1.1.php', 
         function(feeds) {   
 		   //alert(feeds);
             var feedHTML = '';
